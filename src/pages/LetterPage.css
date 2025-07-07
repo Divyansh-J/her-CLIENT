@@ -24,6 +24,54 @@
   pointer-events: none;
 }
 
+/* Loading Screen Styles */
+.letter-loading {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  text-align: center;
+  background: rgba(255,255,255,0.10);
+  padding: 3rem 4rem;
+  border-radius: 24px;
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+  border: 1.5px solid rgba(255,255,255,0.18);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.18);
+}
+
+.loading-heart {
+  margin-bottom: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loading-text {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.6rem;
+  color: #fff;
+  margin-bottom: 1.5rem;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+}
+
+.loading-dots {
+  display: flex;
+  justify-content: center;
+  gap: 0.8rem;
+}
+
+.loading-dots span {
+  width: 8px;
+  height: 8px;
+  background: #ffb6b9;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+/* Enhanced letter content animations */
 .letter-content {
   position: relative;
   z-index: 1;
@@ -154,5 +202,11 @@
   .cta-button {
     padding: 12px 18px;
     font-size: 1rem;
+  }
+  .letter-loading {
+    padding: 2rem 2.5rem;
+  }
+  .loading-text {
+    font-size: 1.3rem;
   }
 } 

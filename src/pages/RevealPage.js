@@ -159,7 +159,7 @@ const RevealPage = () => {
                     animate={{ opacity: 1, scale: 1, x: 0 }} 
                     transition={{ duration: 1.2, delay: 1 }}
                   >
-                    A Fully-Sponsored Trek to Pin Bhaba Pass
+                    Trek to Pin Bhaba Pass
                   </motion.h2>
                   
                   <AnimatePresence>
@@ -179,7 +179,7 @@ const RevealPage = () => {
                           animate={{ opacity: 1, scale: 1, x: 0 }} 
                           transition={{ duration: 1.2, delay: 0.8 }}
                         >
-                          A Fully-Sponsored Trip with Aunty and Poopie
+                          Trip with Aunty and Poopie (Bir Probably)
                         </motion.h2>
                       </>
                     )}
